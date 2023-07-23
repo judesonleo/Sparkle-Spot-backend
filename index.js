@@ -17,7 +17,7 @@ const secret = "asdfe45we45w345wegw345werjktjwertkj";
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000", "https://Sparkle-spot-app.onrender.com"],
+    origin: ["http://localhost:3000", "https://sparkle-spot.vercel.app"],
   })
 );
 app.use(express.json());
