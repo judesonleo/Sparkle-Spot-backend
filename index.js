@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use("/uploads", express.static(__dirname + "/uploads"));
 
 mongoose.connect(
-  "mongodb+srv://blog-test:p0MGbYggLfMAk4W8@cluster0.boo57j8.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://judesonleo123:L5Z0celO3p5SNdoX@cluster0.nnejaku.mongodb.net/?retryWrites=true&w=majority"
 );
 
 app.post("/register", async (req, res) => {
