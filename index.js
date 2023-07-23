@@ -20,7 +20,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://sparkle-spot.vercel.app",
-      "https://sparkle-spot.netlify.app/",
+      "https://sparkle-spot.netlify.app",
     ],
   })
 );
