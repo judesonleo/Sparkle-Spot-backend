@@ -1,7 +1,10 @@
 {
+  "name": "backend",
+  "version": "0.1.0",
+  "main": "index.js",
   "scripts": {
-    "start": "npm install",
-    "build": "node index.js"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
